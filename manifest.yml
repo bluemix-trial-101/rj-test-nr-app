@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: rj-test-nr-app
+  host: rj-test-nr-app
+  disk_quota: 1024M
+  services:
+  - rj-test-nr-app-cloudantNoSQLDB
